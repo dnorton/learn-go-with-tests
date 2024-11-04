@@ -35,3 +35,11 @@ PASS
 ```
 
 The `80.282 ns/op` means that it took an average of 80.282 nanoseconds to run the function. The `-8` means that it used 8 cores to run the benchmark.
+
+## Coverage
+
+```bash
+❯ go test -cover
+```
+
+
